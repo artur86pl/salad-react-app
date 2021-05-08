@@ -1,0 +1,66 @@
+header {
+    height: 2vh;
+    margin: 1vh 0 0 1vw;
+}
+
+.flex-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+    max-height: 60vh;
+}
+
+.inner-container {
+    padding: 1vh;
+}
+
+
+.component {
+    width: 28%;
+    min-width: 250px;
+    margin: 2vh;
+    padding: 1vh;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.green {  
+    color: #9acd32 !important;
+}
+
+.yellow {
+    color: #ffff00 !important;
+}
+
+.orange {
+    color: #ffa500 !important;
+}
+
+.MuiExpansionPanelSummary-root {
+display: none !important;
+}
+
+#container {
+    display: flex;
+    background-color: lightgrey;
+    margin: 2vh 1vw;
+    max-height: 92vh;
+}
+
+#no-height{
+    height: 0px !important;
+}
